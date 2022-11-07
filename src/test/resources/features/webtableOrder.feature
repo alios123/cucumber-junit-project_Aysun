@@ -16,7 +16,7 @@ Feature: Web table user order feature
     And user enters process order button
     Then user should see "Sherlock Holmes" in first row of the web table
 
-  @webtableAppOrder
+
   Scenario Template: User should be able to place order and order seen in web table with using DDT
     Given user is already logged in and on order page
     When user selects product type "<productType>"
