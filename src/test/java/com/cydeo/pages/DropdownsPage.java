@@ -13,5 +13,8 @@ public class DropdownsPage {
 
     @FindBy(id="month")
     public WebElement monthDropdown;
+    @FindBy(id = "day")
+    public WebElement dayDropdown;
+
 
 }

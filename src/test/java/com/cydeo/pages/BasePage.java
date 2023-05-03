@@ -26,4 +26,8 @@ public class BasePage {
     @FindBy(xpath = "//button[@class=\"button __logout\"]")
     public WebElement logoutButton;
 
+    public void login(){
+
+    }
+
 }

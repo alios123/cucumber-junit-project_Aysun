@@ -26,6 +26,7 @@ public class GoogleSearch_StepDefinitions {
 
         googleSearchPage.searchBox.sendKeys("apple"+ Keys.ENTER);
 
+
     }
 
 
@@ -54,4 +55,8 @@ public class GoogleSearch_StepDefinitions {
 
     }
 
+    @When("user types {string} in the google search box and click")
+    public void userTypesInTheGoogleSearchBoxAndClick(String name) {
+        googleSearchPage.searchBox.click();
+    }
 }
