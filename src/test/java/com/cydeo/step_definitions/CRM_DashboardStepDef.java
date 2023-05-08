@@ -50,7 +50,9 @@ public class CRM_DashboardStepDef {
     @When("I click new task button")
     public void i_click_new_task_button() {
        Assert.assertTrue(dashboardPageCRM.newTaskHeader.isDisplayed());
+        System.out.println("changed");
     }
+
 
 
 }
