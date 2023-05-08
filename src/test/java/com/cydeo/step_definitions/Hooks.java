@@ -24,16 +24,16 @@ public class Hooks {
 
         }
 
-        Driver.closeDriver();
+        //Driver.closeDriver();
     }
 
 
 
-    //@Before
-    public void setupScenario(){
-        System.out.println("Setting up browser using cucumber @Before each scenario");
-        Driver.getDriver().get("URL of your app");
-    }
+
+//    public void setupScenario(){
+//        System.out.println("Setting up browser using cucumber @Before each scenario");
+//        Driver.getDriver().get("");
+//    }
 
 
     //@Before (value = "@login", order=2)

@@ -61,4 +61,20 @@ public class WebTableLogin_StepDefs {
         webTableLoginPage.login(credentials.get("username"),credentials.get("password"));
 
     }
+
+    @When("user enters username test")
+    public void user_enters_username() {
+       webTableLoginPage.inputUsername.sendKeys("Test");
+    }
+    @When("user enters password tester")
+    public void user_enters_password() {
+       webTableLoginPage.inputPassword.sendKeys("Tester");
+    }
+
+    @When("user enters follow credentials")
+    public void user_enters_follow_credentials(Map<String,String> credentials) {
+        webTableLoginPage.login(credentials.get("username"),credentials.get("password"));
+
+    }
+
 }
