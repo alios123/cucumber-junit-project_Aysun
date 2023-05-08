@@ -1,9 +1,12 @@
 @taskModule
 Feature: test modules on dashboard
+  Background:
+    Given that I am logged in to the Nextbase CRM dashboard
 
   Scenario: test tasks module
-    Given that I am logged in to the Nextbase CRM dashboard
+
     When I navigate to the "Tasks" module
     Then I should see a header named "My tasks"
+
 
 
