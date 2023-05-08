@@ -47,6 +47,8 @@ public class CRM_DashboardStepDef {
         Assert.assertEquals(expected,dashboardPageCRM.taskPageHeader.getText());
     }
 
+
+
     @When("I click new task button")
     public void i_click_new_task_button() {
        Assert.assertTrue(dashboardPageCRM.newTaskHeader.isDisplayed());
@@ -54,7 +56,9 @@ public class CRM_DashboardStepDef {
     }
 
 
-
+    @When("I navigate to the Tasks module")
+    public void iNavigateToTheTasksModule() {
+    }
 }
 
 

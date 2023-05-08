@@ -7,3 +7,7 @@ Feature: test modules on dashboard
     Then I should see a header named "My tasks"
 
 
+
+
+
+
