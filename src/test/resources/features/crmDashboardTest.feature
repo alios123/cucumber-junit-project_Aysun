@@ -7,6 +7,7 @@ Feature: test modules on dashboard
 
     When I navigate to the "Tasks" module
     Then I should see a header named "My tasks"
+    Then fdsf sdjgbds kdfhkjflhmd;h,
 
 
 
